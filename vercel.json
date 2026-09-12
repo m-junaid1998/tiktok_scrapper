@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "api/scrape.js": {
+      "maxDuration": 300
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/scrape",
+      "schedule": "0 */2 * * *"
+    }
+  ]
+}
